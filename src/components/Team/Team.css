@@ -1,0 +1,80 @@
+.teamgrande{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 1px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.total{
+    margin-top: 80px;
+}
+.teamtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 10px;
+    color: rgb(7, 10, 18);
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    transition: 0.1s linear;
+    margin: 20px;
+    
+}
+.team-item {
+    background-color: #fffcfc;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    z-index: 0;
+margin: 10px;
+
+    justify-content: center;
+    user-select: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.team-item:hover{
+z-index: 9;
+transform: scaleX(1.03);
+transition: all 1s ease;
+background-color:  rgb(43, 45, 66);
+
+color: #ddd;
+
+
+}
+.team-item:active{
+transform: scale(1.2);
+    
+    transition: all 1s ease;
+    background-color:  rgb(43, 45, 66);
+    color: #ddd;
+    
+    }
+   
+    .imagen{
+    }
+
+    .fotocontainer img{
+        width: 100%;
+        display: block;
+        height: 100%;
+        padding: 10px;
+    }
+    .parrafo{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin-left: 20px;
+        font-family: Lato, Arial, Helvetica, sans-serif;
+    }
+    .butonsobre{
+        z-index: 999;
+        position: relative;
+        display: flex
+        ;
+        top: -60px;
+        left: 80%;
+
+    }

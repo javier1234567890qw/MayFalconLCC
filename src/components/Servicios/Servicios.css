@@ -1,0 +1,65 @@
+.bento-container {
+    display: grid;
+    
+    user-select: none;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    padding: 10px;
+    
+}
+
+.bento-item {
+    background-color: #fffcfc;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    z-index: 3;
+margin: 10px;
+
+    border-radius: 5px;
+    justify-content: center;
+    user-select: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.bento-item:hover{
+z-index: 99;
+transform: scale(1.04);
+transition: all 1s ease;
+background-color:  rgb(43, 45, 66);
+color: #ddd;
+
+}
+.bento-item:active{
+transform: scale(1.2);
+    
+    transition: all 1s ease;
+    background-color:  rgb(43, 45, 66);
+    color: #ddd;
+    
+    }
+    .contenedorGrande{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        background-image: url('https://img.freepik.com/free-photo/close-up-education-economy-objects_23-2149113526.jpg?t=st=1722691409~exp=1722695009~hmac=29e43cf9bce7d547f5506c1ed11012043703a85dfad8cd8edc745c583e4843ac&w=740');
+        border: 20px;
+        background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el div */
+  background-position: center; /* Centra la imagen en el div */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+        z-index: 30;
+        background-color: rgba(0, 0, 0, 0.489);
+
+    }
+    .tituloservices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 34px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    transition: 0.1s linear;
+        
+    }
